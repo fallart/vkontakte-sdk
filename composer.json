@@ -1,0 +1,29 @@
+{
+  "name": "afaller/vkontakte-sdk",
+  "description": "Simple vk.com sdk",
+  "license": "MIT",
+  "version": "0.1",
+  "authors": [
+    {
+      "name": "Artur Faller",
+      "email": "afaller@protonmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "classmap": ["src"],
+    "psr-4": {
+      "VKontakteSdk\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "VkontakteSdkTests\\": "tests/"
+    }
+  }
+}
